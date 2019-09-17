@@ -3,9 +3,9 @@
 require_once("config.php");
 
 //Carrega um usuário
- // $root = new Usuario();
- // $root->loadbyId(3);
- // echo $root;
+ $root = new Usuario();
+ $root->loadbyId(4);
+ echo $root;
 
 
  // $Sql = new Sql();
@@ -20,8 +20,8 @@ require_once("config.php");
 
 
 //Carrega uma lista de usuários buscando pelo login
-  $search = Usuario::search("jo");
- echo json_encode($search);
+ //  $search = Usuario::search("jo");
+ // echo json_encode($search);
 
 //Carrega um usuario especifico usando login e senha
  // $usuario = new Usuario();
